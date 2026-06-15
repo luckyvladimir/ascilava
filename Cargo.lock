@@ -3,6 +3,14 @@
 version = 4
 
 [[package]]
+name = "asciilava"
+version = "0.1.0"
+dependencies = [
+ "crossterm",
+ "rand",
+]
+
+[[package]]
 name = "bitflags"
 version = "2.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -58,14 +66,6 @@ dependencies = [
  "cfg-if",
  "libc",
  "wasi",
-]
-
-[[package]]
-name = "lavalamp"
-version = "0.1.0"
-dependencies = [
- "crossterm",
- "rand",
 ]
 
 [[package]]
